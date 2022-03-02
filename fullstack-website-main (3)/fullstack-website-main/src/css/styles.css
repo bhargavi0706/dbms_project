@@ -1,0 +1,84 @@
+body{
+	background-color: #8FC1D4;
+}
+
+.navbar-brand{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1.5em;
+	padding: 0.3125em;
+}
+
+.custom-nav-item:hover{
+	background-color: #D7E9F7;
+	border-color: #D7E9F7 1px;
+	border-radius: 15%;
+}
+.remove-vid-marg{
+	margin: 0em;
+	padding: 0em;
+}
+
+.video-parent{
+	position: relative;
+
+}
+
+video {
+	width: 100%;
+	height: 100%;
+}
+
+.vid-overlay{
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	height: 100%;
+	width: 100%;
+	background-color: #225470;
+	z-index: 1px;
+	opacity: 0.8;
+}
+.vid-content{
+	position: absolute;
+	z-index: 2;
+	top: 40%;
+	left: 30%;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Kaisei Tokumin', serif;
+
+}
+
+.start{
+	margin-top:2em ;
+}
+
+.txt-banner{
+	text-align: center;
+	margin-top: -5px;
+	
+}
+.bottom-banner{
+	color: #ffffff;
+	padding: 0.625em;
+}
+
+
+.center{
+	text-align: center;
+}  
+
+
+.feedback {
+    background-color: #eee
+}
+
+.card {
+    border: none
+}
+
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px
+}
+
